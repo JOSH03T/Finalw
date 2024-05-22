@@ -30,3 +30,12 @@ button_title_styles = dict(
 button_body_styles = dict(
     font_size = Size.MEDIUM.value
 )
+
+#se agrego esto para darle un tamnio al titulo
+button_title_styles = dict(
+    font_size = Size.DEFAULT.value
+)
+
+button_body_styles = dict(
+    font_size = Size.MEDIUM.value
+)

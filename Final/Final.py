@@ -3,6 +3,7 @@ from Final.components.navbar import navbar
 from Final.views.header.header import header
 from Final.views.links.links import links
 from Final.components.footer   import footer
+
 import Final.styles.styles as styles
 
 
@@ -19,15 +20,13 @@ def index()-> rx.Component:
                 max_width= styles.MAX_WIDTH,
                 width="100%",
                 margin_y=styles.Size.DEFAULT.value,
-            align="center"
+            align="center" 
             )
-             
                
-    ),
+            ),
       footer()  
             
  )
-
 
 app = rx.App(
     style=styles.BASE_STYLES

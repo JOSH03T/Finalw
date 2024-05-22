@@ -5,12 +5,12 @@ import Final.styles.styles as styles
 def link_button(title: str, body: str, url:str) -> rx.Component:
     return rx.link(
         rx.button(
-            rx.hstack(
-                rx.icon(
-                    tag="calendar"
-                ),
+            #rx.center(
+             #   rx.icon(
+              #      tag="user"
+               # ),
                 
-            ),
+            #),
             rx.vstack(
                 rx.text(
                     title,
@@ -26,7 +26,8 @@ def link_button(title: str, body: str, url:str) -> rx.Component:
             ),
         href=url,
         is_external=True,
-        width="100%"
+        width="100%",
+        color_scheme="green"#Codigo para cambiar el color de los botones
 
     )
         
